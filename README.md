@@ -1,1 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/GmyrjvXu)
+# An HTML and CSS only landing page about Clint Eastwood.
+by Gil Michalovich 315041426
+assignment1-GilMich created by GitHub Classroom
+
+An HTML and CSS only landing page about Clint Eastwood.
+
+in this project, I have made a landing page about clint eastwood, which include a fixed to top navigation bar, photo gallery, qr code that sends to the web page.
+The page includes an embeded youtube video, google fonts and more...
+
+In addition the page includes a html form that sends an Email using the Windows Outlook, which has a dropdown menu of emojis to add to the email message content.
+

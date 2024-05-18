@@ -1,193 +1,128 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Clint Eastwood</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&display=swap" rel="stylesheet">
 </head>
 <body>
-<div id="menu">
-<li><a href="#about">About Me</a></li>
-<li><a href="#photos">My Photos</a></li>
-<li><a href="#playlist">My Playlist</a></li>
-<li><a href="#like">Like</a></li>
-<li><a href="#qrcoder">QR code</a></li>
-<li><a href="#spa">Q&A</a></li>
-<li><a href="#contact">Contact Me</a></li>
-</div>
-		  
-<section id="about" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-about me
-<br/>
-<br/>
-<br/>
-</section>
 
-<section id="photos" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my photos
-<br/>
-<br/>
-<br/>
-</section>
+    <header>
+        <h1 id="main-header">Clint Eastwood</h1>
+        <nav>
+            <ul>
+                <li class=""><a href="#about">About Me</a></li>
+                <li><a class="fa-solid fa-house" href="#gallery">Photo Gallery</a></li>
+                <li><a href="#like">Like Button</a></li>
+                <li><a href="#song">My Favorite Song</a></li>
+                <li><a href="#qr-code">QR Code</a></li>
+                <li><a href="#qr-code">QA</a></li>
+                <li><a href="#contact" id="contact-nav">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <br />
+        <section id="about">
+            <h2>About Me</h2>
+            <p class="about-me-para">Clinton Eastwood Jr. (born May 31, 1930) is an American actor and film director.<br /> After achieving success in the Western TV series Rawhide, he rose to international fame with his role as the "Man with No Name" in Sergio Leone's "Dollars Trilogy" of Spaghetti Westerns during the mid-1960s and as antihero cop Harry Callahan in the five Dirty Harry films throughout the 1970s and 1980s.<br /> These roles, among others, have made Eastwood an enduring cultural icon of masculinity.     Elected in 1986, Eastwood served for two years as the mayor of Carmel-by-the-Sea, California.
+                            An Academy Award nominee for Best Actor, Eastwood won Best Director and Best Picture for his Western film Unforgiven (1992) and his sports drama Million Dollar Baby (2004). <br /> His greatest commercial successes are the adventure comedy Every Which Way but Loose (1978) and its action comedy sequel Any Which Way You Can (1980).<br /> Other popular Eastwood films include the Westerns Hang 'Em High (1968) and Pale Rider (1985), the action-war film Where Eagles Dare (1968), the prison film Escape from Alcatraz (1979), the war film Heartbreak Ridge (1986), the action film In the Line of Fire (1993), and the romantic drama The Bridges of Madison County (1995).<br /> More recent works are Gran Torino (2008), The Mule (2018), and Cry Macho (2021). Since 1967, Eastwood's company Malpaso Productions has produced all but four of his American films.
 
-<section id="playlist" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-my playlist
-<br/>
-<br/>
-<br/>
-</section>
+                            In addition to directing many of his own star vehicles, Eastwood has also directed films in which he did not appear, such as the mystery drama Mystic River (2003) and the war film Letters from Iwo Jima (2006), for which he received Academy Award nominations, the drama Changeling (2008), and the biographical sports drama Invictus (2009). <br /> The war drama biopic American Sniper (2014) set box-office records for the largest January release ever and was also the largest opening ever for an Eastwood film. <br />
 
-<section id="like" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-give me a like
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="qrcoder" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-scan my code
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="spa" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
-<br/>
-<br/>
-<br/>
-</section>
-
-<section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
-<br/>
-</section>
-
-
-<script type="text/javascript">
-$(function(){
-  $("#nav a").click(function(e){
-    e.preventDefault();
-    $('html,body').scrollTo(this.hash,this.hash); 
-  });
-});
-</script>
-<script type="text/javascript">
- $(document).scroll(function() {
-    $('#menu').toggle($(this).scrollTop()>1000)
- });​
- </script>
+                            Eastwood's accolades include four Academy Awards, four Golden Globe Awards, three César Awards, and an AFI Life Achievement Award. In 2000, he received the Italian Venice Film Festival's Golden Lion award, honoring his lifetime achievements.<br /> Bestowed two of France's highest civilian honors, he received the Commander of the Ordre des Arts et des Lettres in 1994, and the Legion of Honour in 2007..</p>
+        </section>
+        <br />
+        <section id="gallery">
+            <h2 id="photo-title">Photo Gallery</h2>
+            <br />
+            <div class="gallery">
+                <img src="https://prod-images.tcm.com/Master-Profile-Images/ClintEastwood.55386.jpg" alt="Clint Eastwood">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/07/ClintEastwoodCannesMay08.jpg" alt="Clint Eastwood">
+                <img src="https://cdn.images.express.co.uk/img/dynamic/36/590x/Clint-Eastwood-turned-down-James-Bond-1721338.jpg?r=1673795300278g" alt="Clint Eastwood">
+                <img src="https://5mbs.com/wp-content/uploads/Clint-Eastwood-2.jpg" alt="Clint Eastwood">
+                <img src="https://i.guim.co.uk/img/static/sys-images/Guardian/About/General/2010/4/23/1272036551480/Clint-Eastwood-in-Pale-Ri-001.jpg?width=620&quality=45&dpr=2&s=none" alt="Clint Eastwood">
+                <img src="https://m.media-amazon.com/images/M/MV5BNjY3YTlkNmUtZDYwNi00NmFkLWE4MmEtOTY5ZTNiYzU4YWY4XkEyXkFqcGdeQW1pYnJ5YW50._V1_.jpg" alt="Clint Eastwood">
+            </div>
+        </section>
+        <br />
+        <section id="like">
+            <h2>Like Button</h2>
+            <div class="fb-like" data-href="https://www.facebook.com/profile.php?id=100044577577502" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
+        </section>
+        <br />
+        <section id="song">
+            <h2>Link to a Song</h2>
+            <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </section>
+        <br />
+        <section id="qr-code">
+            <h2>QR Code</h2>
+            <br />
+            <img class="qr_image" width="280" height="280" src="https://qrfree.kaywa.com/?l=1&amp;s=8&amp;d=https://web-development-environments-2023.github.io/315041426/" alt="QRCode" style="display:inline">
+        </section>
+        <br />
+        <section id="Q&A">
+            <h2>Q&A</h2>
+            <br />
+            <br />
+            <p>
+                web 1 is the "static web" and "read only" while web 2 is dynamic and has user interactions.
+            </p>
+            <p>web 1 had only the developers content, while web2 has user-generated content like social medias and communities, forums etc... </p>
+            <p>web 3 which still in early stages of development, is the "Intelligent web" which include a more personallized web expirience for it's users .</p>
+            <p>Moreover, web 3 introduce Block-chain technology, which offers greater security and privacy to it's users and their data</p>
+            <br />
+            <p>
+                For example, if a user searched in web 1 the query: "clint eastwood" he would get websites created by proffessional developers about him, if such existed. <br />
+                While in web 2, he would get Wikipedia page which has only user generated content !
+            </p>
+            <p>
+                Another Example, is that in web 2 in a credit card payment scenario, the websites use a third party service with a remote server that host a secured payment service. </br>
+                On the other hand, in web 3, in some cases the websites will use a blockchain based services for secured payment, meaning the data will be stored on multiple remote servers, but all the data is heavilly encrypted.
+        </p>
+        </section>
+        <br />
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <br />
+            <center>
+            <form action="mailto:gilmich@post.bgu.ac.il" method="get" enctype="text/plain">
+                Subject:<br>
+                <input type="text" name="subject" placeholder="Your Name"><br>
+                Email:<br>
+                <input type="email" name="email" placeholder="Your Email"><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="body" rows="5" cols="30" placeholder="Your Message"></textarea><br>
+                <label for="emoji">Select an Emoji:</label>
+                <select id="emoji" name="emoji" onchange="addEmoji()">
+                    <option value=""></option>
+                    <option value="❤️">❤️</option>
+                    <option value="😂">😂</option>
+                    <option value="👍">👍</option>
+                    <option value="🎉">🎉</option>
+                    <option value="🌟">🌟</option>
+                </select><br><br>
+                <input type="submit" value="Send">
+            </form>
+                </center>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Clint Eastwood Fan Website</p>
+    </footer>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/he_IL/sdk.js#xfbml=1&version=v16.0" nonce="ZaGpvRGw"></script>
+    <script>
+        function addEmoji() {
+            var message = document.getElementById("message");
+            var emoji = document.getElementById("emoji").value;
+            message.value += emoji;
+        }
+    </script>
+    
 </body>
 </html>
