@@ -51,7 +51,10 @@ nav {
     margin-top: 0;
     top: 0;
     width: 100%;
-    background-color: #333;
+    background-color:rgba(0, 0, 0, 0.765); /* Black background with 50% opacity */;
+    display: flex;
+    justify-content: safe center;
+    z-index: 1;
 }
 #main-header{
     margin: 60px 30px 40px 30px;
@@ -132,6 +135,12 @@ font-variation-settings: 'FILL' 0, 'wght' 500, 'GRAD' 0, 'opsz' 100, 'wdht' 600;
 section#like{
     text-align: center;
     vertical-align: middle;
+}
+
+section#song {
+    text-align: center;
+    vertical-align: middle;
+
 }
 span a#like-button{
     font-size: 100px;
